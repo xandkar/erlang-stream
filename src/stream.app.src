@@ -1,0 +1,15 @@
+{application, stream, [
+    {description, "Streams with parallel processing, lazy filtering and random sampling"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        syntax_tools,
+        compiler
+    ]},
+    {env,[]},
+    {maintainers, ["Siraaj Khandkar <siraaj@khandkar.net>"]},
+    {licenses, ["Apache 2.0"]},
+    {links, [{"GitHub", "https://github.com/xandkar/erlang-stream"}]}
+]}.
